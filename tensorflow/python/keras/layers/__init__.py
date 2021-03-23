@@ -110,6 +110,10 @@ from tensorflow.python.keras.layers.core import ActivityRegularization
 from tensorflow.python.keras.layers.dense_attention import AdditiveAttention
 from tensorflow.python.keras.layers.dense_attention import Attention
 
+#Visual Attention Layers
+from tensorflow.python.keras.layers.visual_attention import PixelAttention2D
+from tensorflow.python.keras.layers.visual_attention import ChannelAttention2D
+
 # Embedding layers.
 from tensorflow.python.keras.layers.embeddings import Embedding
 
